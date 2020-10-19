@@ -1,5 +1,4 @@
 body{
-    padding: 30px;
     color :hsl(192, 100%, 9%);
     font-family: 'Poppins', sans-serif;
     background-color : hsl(207, 100%, 98%);
@@ -13,14 +12,40 @@ button{
     border:none;
     color: #ffffff;
     background-color : hsl(322, 100%, 66%);
+    border-radius: 10px;
 }
 #top{
-    width: 200px;
-    display: flex;
-    justify-content : space-between;
+    display:flex;
+    padding: 35px;
+    align-items:center;
+}
+#logo{
+    width: 50vw;
+    text-align: left;
+    padding-left: 0px;
+}
+#logo-image{
+    width: 70%;
+}
+#try{
+    width: 50vw;
+    text-align: right;
+    padding-right: 0px;
+}
+.button1{
+    padding: 6px 20px 6px;
+    color:  hsl(322, 100%, 66%);
+    border: 1px solid  hsl(322, 100%, 66%);
+    background-color :#ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+#container{
+    padding: 35px;
 }
 #header{
     margin-top: 35px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -31,28 +56,174 @@ h1{
     line-height: 1.5em;
     font-size: 24px;
 }
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5em;
+}
 #offer-description{
     padding-top: 30px;
-    padding-bottom: 30px;;
-}
-.started{
-    width: 50%;
+    padding-bottom: 30px;
+    font-size:13px;
+    line-height: 1.5em;
 }
 #mockup{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+#stat-container{
+    display: flex;
+    flex-direction: column;
+    /*padding-left: 110px;
+    padding-right: 110px;*/
+}
+.stat{
+    margin-top:50px;
+    margin-bottom:200px;
+}
+.stat-img{
+    text-align: left;
+    padding-left: 80px;
+}
+.stat-img2{
+    width: 30px;
+}
+.stat-quantity{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.stat-indicator{
+    font-size: 16px;
+    line-height: 2.8em;
+    color: #9fa6ae;
+}
+.value{
+    padding-bottom: 240px;
+}
+.value-title{
+    padding-top: 70px;
+    padding-bottom: 20px;;
+}
+.value-description{
+    letter-spacing: 0.3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+#reminder{
+    margin-top: 60px;
+    margin-bottom: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
 
-
-/*
+.button2{
+    padding: 12px 40px 12px;
+    color: #ffffff;
+    background-color : hsl(322, 100%, 66%);
+    border-radius: 25px;
+    font-size: 13px;
+    margin-top: 25px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
 footer{
     color: #ffffff;
-    background-image: url(images/bg-footer-top-mobile.svg);
+   /* background-image: url(images/bg-footer-top-mobile.svg);*/
     background-color :hsl(192, 100%, 9%);
-}*/
+    /*background-color :red;*/
+    text-align: left;
+}
+#footer-container{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#footer-img{
+    width: 100%;
+    position: relative;
+    top: -12vw;
+}
+
+#newsletter-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing:0.4px;
+}
+#footer-description{
+   /* font-weight: 600;*/
+    font-size: 13px;
+    padding-top: 20px;
+    line-height: 1.8em;
+}
+#social{
+    display: flex;
+    font-size:30px;
+}
+.logo-social{
+    
+    width: 20px;
+    height: 20px;
+    /*border: 1px solid white;*/
+}
+#social .logo-social:nth-child(2){
+    /*background-color :red;*/
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#form-subscribe{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column; 
+}
+#user-email{
+    height: 2.8em;
+    border-radius: 5px;
+    border:none;
+
+}
+#subscribe{
+    font-size:16px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    padding: 15px 40px 15px;
+    align-self: flex-end;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#logo-footer{
+    margin-top:110px;
+    /*margin-bottom:10px;*/
+    width:200px;
+}
+#contact{
+    margin-top:35px;
+    margin-bottom:35px;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+.contact{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.contact span{
+    padding-left:20px;
+
+}
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 11px; 
+    text-align: center; 
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /*@media all and (min-width: 800px){
