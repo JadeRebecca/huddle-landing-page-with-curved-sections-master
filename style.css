@@ -1,0 +1,27 @@
+body{
+    color :hsl(192, 100%, 9%);
+    background-color : hsl(207, 100%, 98%);
+
+}
+button{
+    border:none;
+    color: #ffffff;
+    background-color : hsl(322, 100%, 66%);
+}
+footer{
+    color: #ffffff;
+    /*background-image: url(images/bg-footer-top-mobile.svg);*/
+    background-color :hsl(192, 100%, 9%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media all and (min-width: 800px){
+    footer{ 
+       /* background-image: url(images/bg-footer-top-desktop.svg);
+        background-size: auto;
+        background-repeat: no-repeat;*/
+    }
+}
