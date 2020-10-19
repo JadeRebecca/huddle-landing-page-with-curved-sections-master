@@ -1,27 +1,64 @@
 body{
+    padding: 30px;
     color :hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
     background-color : hsl(207, 100%, 98%);
-
+    text-align: center;
 }
+img { 
+    max-width: 100%; 
+    height: auto; 
+} 
 button{
     border:none;
     color: #ffffff;
     background-color : hsl(322, 100%, 66%);
 }
+#top{
+    width: 200px;
+    display: flex;
+    justify-content : space-between;
+}
+#header{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 24px;
+}
+#offer-description{
+    padding-top: 30px;
+    padding-bottom: 30px;;
+}
+.started{
+    width: 50%;
+}
+#mockup{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/*
 footer{
     color: #ffffff;
-    /*background-image: url(images/bg-footer-top-mobile.svg);*/
+    background-image: url(images/bg-footer-top-mobile.svg);
     background-color :hsl(192, 100%, 9%);
-}
+}*/
 
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media all and (min-width: 800px){
+/*@media all and (min-width: 800px){
     footer{ 
-       /* background-image: url(images/bg-footer-top-desktop.svg);
+       background-image: url(images/bg-footer-top-desktop.svg);
         background-size: auto;
-        background-repeat: no-repeat;*/
+        background-repeat: no-repeat;
     }
-}
+}*/
